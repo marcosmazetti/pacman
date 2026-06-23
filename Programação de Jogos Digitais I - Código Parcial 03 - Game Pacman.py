@@ -76,7 +76,7 @@ if __name__ == "__main__":
         screen.fill(PRETO)
         pacman.pintar(screen)
         pygame.display.update()
-        pygame.time.delay(100)
+        pygame.time.delay(100) #pausa a execução do programa Pygame por um tempo determinado em milissegundos
 
         # Captura os eventos
         eventos = pygame.event.get()

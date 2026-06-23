@@ -22,7 +22,7 @@ class Pacman:
         canto_boca = (self.centro_x, self.centro_y)
         labio_superior = (self.centro_x + self.raio, self.centro_y - self.raio)
         labio_inferior = (self.centro_x + self.raio, self.centro_y)
-        pontos = [canto_boca, labio_superior, labio_inferior]
+        pontos = [canto_boca, labio_superior, labio_inferior] #Lista contendo os pontos
         pygame.draw.polygon(tela, PRETO, pontos, 0)
 
         # Olho do Pacman
